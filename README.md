@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# 📚 EduVoult
 
-This project was bootstrapped with [Create React App](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip).
+EduVoult is a modern academic resource sharing platform built for students to upload, browse, save, and manage educational materials such as previous year question papers, notes, and study resources.
 
-## Available Scripts
+The platform focuses on making academic content easier to discover through filtering, searching, downloading, and organized categorization.
 
-In the project directory, you can run:
+Built with a clean UI, responsive design, and smooth user experience for efficient student resource management.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🌐 Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 https://eduvoult-f.vercel.app/
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip) for more information.
+# 🚀 Features
 
-### `npm run build`
+* 📄 Upload previous year question papers
+* 🔍 Search academic resources
+* 🗂 Filter resources by:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * Group
+  * Year
+  * Subject
+  * Semester
+* 🔖 Save/bookmark study materials
+* 📥 Download uploaded resources
+* 👤 User profile system
+* 🧠 Student ideas/request wall
+* ✏️ Edit and manage uploaded content
+* 📱 Fully responsive design
+* ⚡ Fast and lightweight interface
+* 🎨 Clean and modern UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip) for more information.
+# 🛠 Tech Stack
 
-### `npm run eject`
+## Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* React.js
+* HTML5
+* CSS3
+* JavaScript
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Node.js
+* Express.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Database
 
-## Learn More
+* MongoDB Atlas
 
-You can learn more in the [Create React App documentation](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip).
+## Cloud Storage
 
-To learn React, check out the [React documentation](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip).
+* Cloudinary
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+* Vercel
+* Render
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+# 🎯 Purpose
 
-### Making a Progressive Web App
+EduVoult was built to simplify how students access and manage academic materials.
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+Instead of searching through scattered sources, students can browse organized educational resources in one platform with filtering, saving, downloading, and sharing capabilities.
 
-### Advanced Configuration
+The project aims to improve accessibility and organization for academic content.
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+---
 
-### Deployment
+# ⚙️ Installation
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+## Clone Repository
 
-### `npm run build` fails to minify
+```bash id="0t87vn"
+git clone YOUR_REPOSITORY_LINK
+```
 
-This section has moved here: [https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip](https://raw.githubusercontent.com/Pavan1214/eduvoult-fronts/main/loosestrife/fronts-eduvoult-3.4.zip)
+---
+
+## Open Project
+
+```bash id="lc51zh"
+cd EduVoult
+```
+
+---
+
+## Install Dependencies
+
+```bash id="g2g5m0"
+npm install
+```
+
+---
+
+## Run Frontend
+
+```bash id="2sff1u"
+npm start
+```
+
+---
+
+## Run Backend
+
+```bash id="9hm2tm"
+cd server
+node server.js
+```
+
+---
+
+# 🔮 Future Improvements
+
+* Authentication system
+* PDF preview support
+* Resource approval moderation
+* Comments and discussions
+* AI-based resource recommendations
+* Admin dashboard
+* Real-time notifications
+* Subject-wise trending materials
+* Mobile application support
+* Community-driven uploads
+
+---
+
+# 👨‍💻 Author
+
+## Pavan Aitagoni
+
+* GitHub: https://github.com/pavan-aitagoni
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
